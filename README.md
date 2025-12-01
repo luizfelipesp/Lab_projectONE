@@ -1,4 +1,6 @@
-# ProjectONE.
+# Lab - ProjectONE.
+
+This is my lab where I write code and test my skills.
 
 **TODO: Add description**
 
