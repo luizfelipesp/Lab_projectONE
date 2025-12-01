@@ -1,4 +1,4 @@
-defmodule App.Random.Area do
+defmodule ProjectONE.Random.Area do
   @moduledoc """
     Calculando areas de formas geometricas com números aleatórios,
     Dado dois limite de numeros, calcula a area sem passar desse limite.

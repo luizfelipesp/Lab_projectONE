@@ -1,4 +1,4 @@
-defmodule App.IOgets.Hello do
+defmodule ProjectONE.IOgets.Hello do
   def hello do
     nome =
       IO.gets("Qual seu nome?")

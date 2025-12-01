@@ -1,6 +1,6 @@
-defmodule App.Recursao.AcumuladorTest do
+defmodule ProjectONE.Recursao.AcumuladorTest do
   use ExUnit.Case
-  alias App.Recursao
+  alias ProjectONE.Recursao
 
   @erro {:error, "Passe uma lista e um acumulador"}
 

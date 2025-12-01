@@ -1,4 +1,4 @@
-defmodule App.Recursao.Acumulador do
+defmodule ProjectONE.Recursao.Acumulador do
   def soma([head | tail], acumulador) do
     soma(tail, head + acumulador)
   end

@@ -1,4 +1,4 @@
-defmodule App.Recursao.Matematica do
+defmodule ProjectONE.Recursao.Matematica do
   require Logger
 
   def porcentagem(porcen) when is_number(porcen) do

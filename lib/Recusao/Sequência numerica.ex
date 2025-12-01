@@ -1,4 +1,4 @@
-defmodule App.Recursao.SequeciaNumerica do
+defmodule ProjectONE.Recursao.SequeciaNumerica do
   def p(0), do: 0
 
   def p(number) do

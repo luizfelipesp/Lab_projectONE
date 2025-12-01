@@ -1,4 +1,4 @@
-defmodule App.Recursao.Verificador do
+defmodule ProjectONE.Recursao.Verificador do
   defp contains?([number | _list], number) do
     IO.puts("#{number} is in the list")
   end
