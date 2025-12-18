@@ -1,8 +1,6 @@
-# Lab - ProjectONE.
+# Lab - ProjectONE
 
 This is my lab where I write code and test my skills.
-
-**TODO: Add description**
 
 ## Installation
 
@@ -16,5 +14,3 @@ def deps do
     ]
 end
 ```
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). 
