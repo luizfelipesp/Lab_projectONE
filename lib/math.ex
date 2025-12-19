@@ -19,8 +19,3 @@ defmodule ProjectONE.Math do
     |> trunc()
   end
 end
-
-alias ProjectONE.Math
-
-Math.porcentagem(100, 20)
-|> IO.puts()

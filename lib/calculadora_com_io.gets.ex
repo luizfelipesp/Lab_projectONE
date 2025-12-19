@@ -1,4 +1,6 @@
 defmodule ProjectONE.IOgets.Calculadora do
+  alias ProjectONE.Math
+
   def your_calculation do
     IO.gets("what would you like to calculate?\n")
     |> String.trim()
@@ -15,24 +17,30 @@ defmodule ProjectONE.IOgets.Calculadora do
 
     case operator do
       "+" ->
-        sum(num, num1)
+        Math.somar(num, num1)
+        your_calculation()
 
       "-" ->
-        subtract(num, num1)
+        Math.subtrair(num, num1)
+        your_calculation()
 
       "x" ->
-        multiply(num, num1)
+        Math.multiplicar(num, num1)
+        your_calculation()
 
       "/" ->
-        divide(num, num1)
+        Math.dividir(num, num1, [:trunc])
+        your_calculation()
 
       _ ->
-        {:error, "only: sum, subtract, multiply and divide"}
+        {:error, "only: somar, subtrair, multiplicar and dividir"}
+        your_calculation()
     end
   end
-
-  defp sum(n, n1), do: {:ok, "#{n} + #{n1} = #{n + n1}"}
-  defp subtract(n, n1), do: {:ok, "#{n} - #{n1} = #{n - n1}"}
-  defp multiply(n, n1), do: {:ok, "#{n} x #{n1} = #{n * n1}"}
-  defp divide(n, n1), do: {:ok, "#{n} / #{n1} = #{n / n1}"}
 end
+
+# TO DO: Use regex to catch the operator
+
+alias ProjectONE.IOgets.Calculadora
+
+Calculadora.your_calculation()
