@@ -24,7 +24,6 @@ To run a file in **IEx**, use:
 
 To make development faster, I prefer using the **CodeRunner** extension in VS Code. Just install, configure it, and run files with a **hotkey**.
 
-
 ## References
 
 * **Elixir Documentation**: https://hexdocs.pm/elixir/1.19.4/introduction.html
