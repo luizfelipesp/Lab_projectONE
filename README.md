@@ -14,7 +14,7 @@ To run a file as a script, use in your **terminal**. Don't forget to call the mo
 
 `elixir "lib/math.ex"`
 
-### Compile IEx
+### Compile in IEx
 
 To run a file in **IEx**, use:
 
