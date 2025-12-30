@@ -27,4 +27,7 @@ To make development faster, I prefer using the **CodeRunner** extension in VS Co
 ## References
 
 * **Elixir Documentation**: https://hexdocs.pm/elixir/1.19.4/introduction.html
+
+* **IEx Configuration**: https://thinkingelixir.com/course/pattern-matching/module-1/elixirs-interactive-shell/#Auto-Complete_in_IEx.
+
 * **CodeRunner**: https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
