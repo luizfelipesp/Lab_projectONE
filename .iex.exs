@@ -1,4 +1,4 @@
-defmodule MyIExConfig do
+defmodule MyIEx do
   require Logger
 
   def hello(to) do
@@ -82,6 +82,6 @@ configs = {:default, :dave_thomas, :luiz_felipe}
 index = 2
 
 elem(configs, index)
-|> MyIExConfig.run()
+|> MyIEx.run()
 
-MyIExConfig.hello("World")
+MyIEx.hello("World")
